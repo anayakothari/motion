@@ -18,6 +18,9 @@ h1 {
 }
 
 button {
+
     font-family: "Futura Std Condensed";
+    background-color: black;
+    background-color: white;
     color: red
 }
