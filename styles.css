@@ -19,6 +19,7 @@ h1 {
 
 button {
     padding: 10px 24px;
+    border-radius: 12px;
     font-family: "Futura Std Condensed";
     background-color: white;
     background-color: black;
