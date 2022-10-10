@@ -317,6 +317,31 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/shoes.jpg" : {
+      "ft" : 16384,
+      "iS" : 100486,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/shoes.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/styles-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/styles-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
