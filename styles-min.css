@@ -14,13 +14,13 @@ img {
 h1 {
     margin-top: 25%;
     color: red;
-    font-family: "Futura Std";
+    font-family: "Avenir Next Condensed";
 }
 
 button {
     padding: 10px 24px;
     border-radius: 12px;
-    font-family: "Futura Std Condensed";
+    font-family: "Avenir Next";
     background-color: white;
     background-color: black;
     color: red
