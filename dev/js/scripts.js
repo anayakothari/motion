@@ -3,7 +3,7 @@ import {
 } from "gsap";
 
 
-gsap.from("#Off-Air.", {
+gsap.from("#content", {
     duration: 1,
     x: -200,
     alpha: 0
