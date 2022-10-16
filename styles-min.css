@@ -12,11 +12,19 @@ img {
 }
 
 h1 {
+    font-size: 40px;
+    font-stretch: extra-condensed;
     margin-top: 25%;
     color: red;
     font-family: "Futura Std";
 }
 
 button {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     color: red
 }
