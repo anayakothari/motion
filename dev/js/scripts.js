@@ -7,12 +7,24 @@ import {
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to("#robotanimation", {
-    duration: 1,
-    x: 10,
+gsap.to("#history-middle", {
+    duration: 2,
+    x: 0,
     rotation: 360,
     scrollTrigger: {
         trigger: "#history-middle",
+        toggleActions: "restart pause reverse pause",
+        markers: true,
+
+    }
+});
+
+gsap.to("#h1", {
+    duration: 2,
+    x: 0,
+    rotation: 360,
+    scrollTrigger: {
+        trigger: "#h1",
         toggleActions: "restart pause reverse pause",
         markers: true,
 
