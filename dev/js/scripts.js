@@ -20,13 +20,14 @@ gsap.to("#history-middle", {
 });
 
 gsap.to("#h1", {
-    duration: 2,
-    x: 0,
-    rotation: 360,
     scrollTrigger: {
         trigger: "#h1",
-        toggleActions: "restart pause reverse pause",
+        start: "top 8%",
+        end: "bottom",
         markers: true,
+        toggleActions: "play reset play reset",
+        duration: 0.5,
+
 
     }
 });
