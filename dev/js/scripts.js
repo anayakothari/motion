@@ -12,7 +12,7 @@ gsap.to("#robotanimation", {
     x: 10,
     rotation: 360,
     scrollTrigger: {
-        trigger: "#robotanimation",
+        trigger: "#history-middle",
         toggleActions: "restart pause reverse pause",
         markers: true,
 
