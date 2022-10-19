@@ -1,16 +1,20 @@
-import $ from "jquery";
+import {
+    gsap
+} from "gsap";
+import {
+    ScrollTrigger
+} from "gsap/ScrollTrigger";
 
-let $nav = $('nav[data-nav]');
-let isVisible = false;
+gsap.registerPlugin(ScrollTrigger);
 
-$(".nav-btns").on("click", function(){
-    console.log("click");
-    if(isVisible === false){
-        $nav.show();
-        isVisible = true;
+gsap.to("#robotanimation", {
+    duration: 1,
+    x: 10,
+    rotation: 360,
+    scrollTrigger: {
+        trigger: "#robotanimation",
+        toggleActions: "restart pause reverse pause",
+        markers: true,
+
     }
-    else{
-        $nav.hide();
-        isVisible = false;
-    }
-})
+});
