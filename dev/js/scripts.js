@@ -19,12 +19,12 @@ gsap.to("#history-middle", {
     }
 });
 
-gsap.to("#h1", {
+gsap.to("#robot-skills", {
     scrollTrigger: {
         duration: 1,
-        trigger: "#h1",
-        start: "#robot-skills",
-        end: "#robot-skills",
+        trigger: "#robot-skills",
+        start: "#robot-start",
+        end: "#robot-end",
         markers: true,
         toggleActions: "play reset play reset",
 
