@@ -32,7 +32,7 @@ gsap.to("#button-container", {
 });
 
 gsap.to("#skynet", {
-    duration: 1,
+    duration: 2,
     x: 0,
     rotation: -360,
     scrollTrigger: {
