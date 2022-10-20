@@ -19,14 +19,26 @@ gsap.to("#history-middle", {
     }
 });
 
-gsap.to("#robot-skills", {
+gsap.to("#button-container", {
+    duration: 3,
+    x: 0,
+    rotation: -360,
     scrollTrigger: {
-        duration: 1,
-        trigger: "#robot-skills",
-        start: "#robot-start",
-        end: "#robot-end",
+        trigger: "#button-container",
+        toggleActions: "restart pause reverse pause",
         markers: true,
-        toggleActions: "play reset play reset",
+
+    }
+});
+
+gsap.to("#skynet", {
+    duration: 1,
+    x: 0,
+    rotation: -360,
+    scrollTrigger: {
+        trigger: "#skynet",
+        toggleActions: "restart pause reverse pause",
+        markers: true,
 
     }
 });
