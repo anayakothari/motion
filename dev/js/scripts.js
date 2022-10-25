@@ -7,6 +7,21 @@ import {
 
 gsap.registerPlugin(ScrollTrigger);
 
+function historymiddle(paragraphrotation) {
+    var tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: "#history-middle",
+            scrub: true,
+            markers: true,
+            start: "center bottom"
+        }
+    })
+    tl.to("history-middle")
+}
+
+var mainTL = gsap.timeline();
+mainTL.add(paragraphrotation())
+    .add(paragraphrotation())
 
 
 gsap.to("#history-middle", {
