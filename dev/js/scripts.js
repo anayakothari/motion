@@ -15,6 +15,21 @@ function simpleMotion() {
     var tl = gsap.timeline();
 
 
+    tl.fromTo(".circle", {
+            scale: 0
+        }, {
+            scale: 1,
+            duration: 0.25,
+            stagger: 0.25
+        }, "PlayMotion")
+        .fromTo("#Curves", {
+            drawSVG: "0%"
+        }, {
+            duration: 1,
+            drawSVG: "100% 0%"
+        }, "PlayMotion")
+
+
     return tl;
 }
 
