@@ -11,11 +11,11 @@ import {
 
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
-function simpleMotion(circle) {
+function simpleMotion() {
     var tl = gsap.timeline();
 
 
-    tl.fromTo(".circle", {
+    tl.fromTo("#svg", {
             scale: 0
         }, {
             scale: 1,
