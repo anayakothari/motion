@@ -11,7 +11,7 @@ import {
 
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
-function simpleMotion() {
+function simpleMotion(circle) {
     var tl = gsap.timeline();
 
 
