@@ -7,6 +7,9 @@ import {
 import {
     GSDevTools
 } from "gsap/GSDevTools";
+import {
+    MorphSVGPlugin
+} from "gsap/MorphSVGPlugin";
 
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
