@@ -1,14 +1,29 @@
-import { gsap } from "gsap";
-import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
-import { GSDevTools } from "gsap/GSDevTools";
+import {
+    gsap
+} from "gsap";
+import {
+    DrawSVGPlugin
+} from "gsap/DrawSVGPlugin";
+import {
+    GSDevTools
+} from "gsap/GSDevTools";
 
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
 
-function boxAnimation(){
+function boxAnimation() {
     var tl = gsap.timeline();
-    tl.fromTo("#box",{drawSVG:"0% 5%"},{duration:1, fill:"red", drawSVG:"95% 100%"})
-    .from("#line",{duration:1, drawSVG:"0%"});
+    tl.fromTo("#box", {
+            drawSVG: "0% 5%"
+        }, {
+            duration: 1,
+            fill: "green",
+            drawSVG: "95% 100%"
+        })
+        .from("#line", {
+            duration: 1,
+            drawSVG: "0%"
+        });
     return tl;
 }
 
