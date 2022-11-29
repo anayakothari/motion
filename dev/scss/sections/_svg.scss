@@ -1,18 +1,86 @@
-#svg{
+#svg {
     display: grid;
     grid-template-columns: auto 1200px auto;
     grid-template-areas: ". svg .";
 
-    div{
+    div {
         grid-area: svg;
-
-
         // svg{
 
+        /* Vector 1 */
+        position: absolute;
+        width: 118.5px;
+        height: 126.5px;
+        left: 116.5px;
+        top: 178px;
 
-            #box{
-                // fill: yellow;
-            }
+        background: #000000;
+
+        /* Group 1 */
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        left: 106px;
+        top: 167px;
+
+        /* Vector 5 */
+        position: absolute;
+        width: 64px;
+        height: 91px;
+        left: 254.5px;
+        top: 196px;
+
+        background: #000000;
+
+        /* Vector 6 */
+        position: absolute;
+        width: 78px;
+        height: 91.5px;
+        left: 305px;
+        top: 195.5px;
+
+        background: #000000;
+
+        /* Group 2 */
+        position: absolute;
+        width: 66.51px;
+        height: 69.55px;
+        left: 370.99px;
+        top: 218.49px;
+
+        /* Vector 9 */
+        position: absolute;
+        width: 74.5px;
+        height: 69.04px;
+        left: 438px;
+        top: 217.96px;
+
+        background: #000000;
+
+        /* Group 3 */
+        position: absolute;
+        width: 70.04px;
+        height: 99.78px;
+        left: 515.96px;
+        top: 189px;
+
+        /* Group 4 */
+
+        position: absolute;
+        width: 55.76px;
+        height: 70.24px;
+        left: 590.24px;
+        top: 218.46px;
+
+        /* Vector 14 */
+        position: absolute;
+        width: 49px;
+        height: 73.5px;
+        left: 650px;
+        top: 214px;
+
+        background: #000000;
+
         // }
     }
 }
