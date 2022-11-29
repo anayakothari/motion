@@ -370,7 +370,6 @@ textarea {
   grid-template-areas: ". svg .";
 }
 #svg div {
-  grid-area: svg;
   /* Vector 1 */
   position: absolute;
   width: 118.5px;
