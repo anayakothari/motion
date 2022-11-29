@@ -14,7 +14,7 @@ import {
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
 
-function boxAnimation() {
+function FoundLogo() {
     var tl = gsap.timeline();
     tl.fromTo("#box", {
             drawSVG: "0% 5%"
