@@ -16,7 +16,7 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
 function FoundLogo() {
     var tl = gsap.timeline();
-    tl.fromTo("#box", {
+    tl.fromTo("#svg", {
             drawSVG: "0% 5%"
         }, {
             duration: 1,
