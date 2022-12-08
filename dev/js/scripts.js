@@ -24,7 +24,6 @@ function Customlogo() {
         .from("#leftshape-fill", {
             opacity: 0,
             stroke: "#164B87",
-            delay: .25,
             duration: 1
         })
         .from("#rightshape", {
