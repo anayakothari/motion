@@ -17,14 +17,14 @@ function FoundLogoAnimation() {
     tl.from("#globe-stand", {
             drawSVG: "75 % 75 %"
         }, {
-            duration: 1,
+            duration: .25,
             drawSVG: "25% 125%"
         })
         .from("#first-w", {
             drawSVG: "50% 50%"
         }, {
             delay: 5,
-            duration: 1,
+            duration: 3,
             scale: .75,
             x: -200
         })
@@ -32,7 +32,31 @@ function FoundLogoAnimation() {
             drawSVG: "50% 50%"
         }, {
             delay: 10,
-            duration: 1,
+            duration: 3,
+            scale: .75,
+            x: -200
+        })
+        .from("#letter-a", {
+            drawSVG: "50% 50%"
+        }, {
+            delay: 1,
+            duration: 3,
+            scale: .75,
+            x: -200
+        })
+        .from("#letter-n", {
+            drawSVG: "50% 50%"
+        }, {
+            delay: 1,
+            duration: 3,
+            scale: .75,
+            x: -200
+        })
+        .from("#letter-d", {
+            drawSVG: "50% 50%"
+        }, {
+            delay: 1,
+            duration: 3,
             scale: .75,
             x: -200
         })
@@ -46,20 +70,20 @@ mainTl.add(FoundLogoAnimation());
 
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
-gsap.from("#globe-stand", {
-    duration: 2,
-    x: 500,
-    scale: 3,
+// gsap.from("#globe-stand", {
+//     duration: 2,
+//     x: 500,
+//     scale: 3,
 
-})
+// })
 
-gsap.from("globe", {
-    duration: 2,
-    x: 500,
-    scale: 3,
-    transformOrigin: "center",
-    rotation: 100
-})
+// gsap.from("globe", {
+//     duration: 2,
+//     x: 500,
+//     scale: 3,
+//     transformOrigin: "center",
+//     rotation: 100
+// })
 
 
 
