@@ -16,7 +16,7 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
 
 function Customlogo() {
     var tl = gsap.timeline();
-    tl.from("#leftshape", {
+    tl.to("#leftshape", {
             drawSVG: "0% 100%",
             duration: 1,
             x: 50
