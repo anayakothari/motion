@@ -14,37 +14,37 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 function Customlogo() {
     var tl = gsap.timeline();
     tl.from("#leftshape", {
-            drawSVG: "25% 100%",
+            drawSVG: "0% 100%",
             duration: 1,
             x: 50
         })
         .from("#leftshape-fill", {
             opacity: 0,
-            stroke: E99560,
+            stroke: "#164B87",
             delay: .25,
             duration: 1
         })
         .from("#rightshape", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             duration: 1,
             x: -50
         })
         .from("#rightshape-fill", {
             opacity: 0,
-            stroke: E99560,
+            stroke: "#164B87",
             duration: 1
         })
-        .from("#first-s", {
+        .from("#second-s", {
             drawSVG: "75% 100%",
             scale: .75,
             x: -200
         })
-        .from("#letter-e", {
+        .from("#third-e", {
             drawSVG: "75% 100%",
             scale: .75,
             x: -200
         })
-        .from("#letter-t", {
+        .from("#third-t", {
             drawSVG: "75% 100%",
             scale: .75,
             x: -200
@@ -79,18 +79,19 @@ function Customlogo() {
             scale: .75,
             x: -200
         })
-        .from("#third-t", {
+        .from("#letter-t", {
             drawSVG: "75% 100%",
             scale: .75,
             x: -200
-        });
+        })
+
     return tl;
 
 }
 
 
 var mainTl = gsap.timeline();
-mainTl.add(boxAnimation());
+mainTl.add(Customlogo());
 
 
 
