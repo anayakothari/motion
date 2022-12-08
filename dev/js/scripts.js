@@ -27,25 +27,23 @@ function FoundLogoAnimation() {
         })
         .from("#first-w", {
             drawSVG: "75% 100%",
-            duration: .5,
             scale: .75,
             x: -200
         })
         .from("#first-w-fill", {
             opacity: 0,
 
-            duration: 1
+            duration: .25
         })
         .from("#second-w", {
             drawSVG: "75% 100%",
-            duration: .5,
             scale: .75,
             x: -200
         })
         .from("#second-w-fill", {
             opacity: 0,
 
-            duration: 1
+            duration: .25
         })
         .from("#letter-a", {
             drawSVG: "75% 100%",
@@ -55,7 +53,7 @@ function FoundLogoAnimation() {
         .from("#letter-a-fill", {
             opacity: 0,
 
-            duration: 1
+            duration: .25
         })
         .from("#letter-n", {
             drawSVG: "75% 100%",
@@ -65,7 +63,7 @@ function FoundLogoAnimation() {
         .from("#letter-n-fill", {
             opacity: 0,
 
-            duration: 1
+            duration: .25
         })
         .from("#letter-d", {
             drawSVG: "75% 100%",
@@ -75,7 +73,7 @@ function FoundLogoAnimation() {
         .from("#letter-d-fill", {
             opacity: 0,
 
-            duration: 1
+            duration: .25
         })
         .from("#letter-e", {
             drawSVG: "75% 100%",
@@ -85,7 +83,7 @@ function FoundLogoAnimation() {
         .from("#letter-e-fill", {
             opacity: 0,
 
-            duration: 1
+            duration: .25
         })
 
         .from("#letter-r", {
@@ -96,7 +94,7 @@ function FoundLogoAnimation() {
         .from("#letter-r-fill", {
             opacity: 0,
 
-            duration: 1
+            duration: .25
         });
     return tl;
 
