@@ -13,85 +13,76 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
 function Customlogo() {
     var tl = gsap.timeline();
-    tl.from("#globe-stand", {
+    tl.from("#leftshape", {
             drawSVG: "25% 100%",
             duration: 1,
+            x: 50
         })
-        .from("#globe-stand-fill", {
+        .from("#leftshape-fill", {
             opacity: 0,
+            stroke: E99560,
             delay: .25,
             duration: 1
         })
-        .from("#first-w", {
+        .from("#rightshape", {
+            drawSVG: "75% 100%",
+            duration: 1,
+            x: -50
+        })
+        .from("#rightshape-fill", {
+            opacity: 0,
+            stroke: E99560,
+            duration: 1
+        })
+        .from("#first-s", {
             drawSVG: "75% 100%",
             scale: .75,
             x: -200
-        })
-        .from("#first-w-fill", {
-            opacity: 0,
-
-            duration: .25
-        })
-        .from("#second-w", {
-            drawSVG: "75% 100%",
-            scale: .75,
-            x: -200
-        })
-        .from("#second-w-fill", {
-            opacity: 0,
-
-            duration: .25
-        })
-        .from("#letter-a", {
-            drawSVG: "75% 100%",
-            scale: .75,
-            x: -200
-        })
-        .from("#letter-a-fill", {
-            opacity: 0,
-
-            duration: .25
-        })
-        .from("#letter-n", {
-            drawSVG: "75% 100%",
-            scale: .75,
-            x: -200
-        })
-        .from("#letter-n-fill", {
-            opacity: 0,
-
-            duration: .25
-        })
-        .from("#letter-d", {
-            drawSVG: "75% 100%",
-            scale: .75,
-            x: -200
-        })
-        .from("#letter-d-fill", {
-            opacity: 0,
-
-            duration: .25
         })
         .from("#letter-e", {
             drawSVG: "75% 100%",
             scale: .75,
             x: -200
         })
-        .from("#letter-e-fill", {
-            opacity: 0,
-
-            duration: .25
-        })
-
-        .from("#letter-r", {
+        .from("#letter-t", {
             drawSVG: "75% 100%",
             scale: .75,
             x: -200
         })
-        .from("#letter-r-fill", {
-            opacity: 0,
-
-            duration: .25
+        .from("#second-t", {
+            drawSVG: "75% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#letter-l", {
+            drawSVG: "75% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#second-e", {
+            drawSVG: "75% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#letter-m", {
+            drawSVG: "75% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#third-e", {
+            drawSVG: "75% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#letter-n", {
+            drawSVG: "75% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#third-t", {
+            drawSVG: "75% 100%",
+            scale: .75,
+            x: -200
         });
     return tl;
 
