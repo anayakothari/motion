@@ -16,7 +16,9 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 gsap.from("#globe-stand", {
     duration: 2,
     x: 500,
-    scale: 3
+    scale: 3,
+    transformOrigin: "center"
+
 })
 
 
