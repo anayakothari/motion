@@ -14,9 +14,9 @@ import {
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
 
 
-function Customlogo() {
+function CustomLogo() {
     var tl = gsap.timeline();
-    tl.to("#leftshape", {
+    tl.from("#leftshape", {
             drawSVG: "0% 100%",
             duration: 1,
             x: 50
@@ -37,55 +37,105 @@ function Customlogo() {
             duration: 1
         })
         .from("#second-s", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
         })
         .from("#third-e", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
         })
         .from("#third-t", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
         })
         .from("#second-t", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
         })
         .from("#letter-l", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
         })
         .from("#second-e", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
         })
         .from("#letter-m", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
         })
         .from("#third-e", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
         })
         .from("#letter-n", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
         })
         .from("#letter-t", {
-            drawSVG: "0% 100%",
+            drawSVG: "25% 100%",
             scale: .75,
             x: -200
-        });
+        })
+        .from("#music-m", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#music-u", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#music-s", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#music-i", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#music-c", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#school-s", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#school-c", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#school-o1", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#school-o2", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
+        .from("#school-l", {
+            drawSVG: "25% 100%",
+            scale: .75,
+            x: -200
+        })
 
     return tl;
 
@@ -93,7 +143,7 @@ function Customlogo() {
 
 
 var mainTl = gsap.timeline();
-mainTl.add(Customlogo());
+mainTl.add(CustomLogo());
 
 
 
