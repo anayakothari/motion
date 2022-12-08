@@ -7,8 +7,11 @@ import {
 import {
     GSDevTools
 } from "gsap/GSDevTools";
+import {
+    MorphSVGPlugin
+} from "gsap/MorphSVGPlugin";
 
-gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
+gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
 
 
 function Customlogo() {
@@ -35,55 +38,55 @@ function Customlogo() {
             duration: 1
         })
         .from("#second-s", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
         })
         .from("#third-e", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
         })
         .from("#third-t", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
         })
         .from("#second-t", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
         })
         .from("#letter-l", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
         })
         .from("#second-e", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
         })
         .from("#letter-m", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
         })
         .from("#third-e", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
         })
         .from("#letter-n", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
         })
         .from("#letter-t", {
-            drawSVG: "75% 100%",
+            drawSVG: "0% 100%",
             scale: .75,
             x: -200
-        })
+        });
 
     return tl;
 
