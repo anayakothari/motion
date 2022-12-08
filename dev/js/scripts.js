@@ -13,22 +13,11 @@ import {
 
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
-
-function FoundLogo() {
-    var tl = gsap.timeline();
-    tl.fromTo("#svg", {
-            drawSVG: "0% 5%"
-        }, {
-            duration: 1,
-            fill: "green",
-            drawSVG: "95% 100%"
-        })
-        .from("#line", {
-            duration: 1,
-            drawSVG: "0%"
-        });
-    return tl;
-}
+gsap.from("#globe-stand", {
+    duration: 2,
+    x: 500,
+    scale: 3
+})
 
 
 var mainTl = gsap.timeline();
