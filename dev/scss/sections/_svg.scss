@@ -1,21 +1,18 @@
-#svg {
+#svg{
     display: grid;
     grid-template-columns: auto 1200px auto;
     grid-template-areas: ". svg .";
 
-    div {
+    div{
         grid-area: svg;
-
-
 
 
         // svg{
 
 
-        #box {
-            // fill: yellow;
-        }
-
+            #box{
+                // fill: yellow;
+            }
         // }
     }
 }

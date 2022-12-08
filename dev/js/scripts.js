@@ -7,16 +7,13 @@ import {
 import {
     GSDevTools
 } from "gsap/GSDevTools";
-import {
-    MorphSVGPlugin
-} from "gsap/MorphSVGPlugin";
 
-gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
+gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
 
-function CustomLogoAnimation() {
+function Customlogo() {
     var tl = gsap.timeline();
-    tl.from("#leftshape", {
+    tl.from("#globe-stand", {
             drawSVG: "25% 100%",
             duration: 1,
         })
@@ -99,6 +96,7 @@ function CustomLogoAnimation() {
     return tl;
 
 }
+
 
 var mainTl = gsap.timeline();
 mainTl.add(boxAnimation());
