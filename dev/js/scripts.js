@@ -17,14 +17,14 @@ function FoundLogoAnimation() {
     tl.from("#globe-stand", {
             drawSVG: "75 % 75 %"
         }, {
-            duration: .25,
+            duration: 1,
             drawSVG: "25% 125%"
         })
         .from("#first-w", {
             drawSVG: "50% 50%"
         }, {
             delay: 5,
-            duration: 3,
+            duration: 2,
             scale: .75,
             x: -200
         })
@@ -32,7 +32,7 @@ function FoundLogoAnimation() {
             drawSVG: "50% 50%"
         }, {
             delay: 10,
-            duration: 3,
+            duration: 2,
             scale: .75,
             x: -200
         })
@@ -40,7 +40,7 @@ function FoundLogoAnimation() {
             drawSVG: "50% 50%"
         }, {
             delay: 1,
-            duration: 3,
+            duration: 2,
             scale: .75,
             x: -200
         })
@@ -48,7 +48,7 @@ function FoundLogoAnimation() {
             drawSVG: "50% 50%"
         }, {
             delay: 1,
-            duration: 3,
+            duration: 2,
             scale: .75,
             x: -200
         })
@@ -56,7 +56,23 @@ function FoundLogoAnimation() {
             drawSVG: "50% 50%"
         }, {
             delay: 1,
-            duration: 3,
+            duration: 2,
+            scale: .75,
+            x: -200
+        })
+        .from("#letter-e", {
+            drawSVG: "50% 50%"
+        }, {
+            delay: 1,
+            duration: 2,
+            scale: .75,
+            x: -200
+        })
+        .from("#letter-r", {
+            drawSVG: "50% 50%"
+        }, {
+            delay: 1,
+            duration: 2,
             scale: .75,
             x: -200
         })
