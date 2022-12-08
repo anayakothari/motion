@@ -17,8 +17,15 @@ gsap.from("#globe-stand", {
     duration: 2,
     x: 500,
     scale: 3,
-    transformOrigin: "center"
 
+})
+
+gsap.from("globe", {
+    duration: 2,
+    x: 500,
+    scale: 3,
+    transformOrigin: "center",
+    rotation: 100
 })
 
 
