@@ -11,6 +11,8 @@ import {
     MorphSVGPlugin
 } from "gsap/MorphSVGPlugin";
 
+gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
+
 
 function FoundLogoAnimation() {
     var tl = gsap.timeline();
@@ -61,37 +63,40 @@ function FoundLogoAnimation() {
             x: -200
         })
         .from("#letter-e", {
-            drawSVG: "50% 50%"
-        }, {
+            drawSVG: "50% 50%",
             delay: 1,
             duration: 2,
             scale: .75,
             x: -200
         })
+        .from("#letter-e-fill", {
+            opacity: 0,
+
+            duration: 1
+        })
+
         .from("#letter-r", {
-            drawSVG: "50% 50%"
-        }, {
-            delay: 1,
+            drawSVG: "50% 50%",
+            delay: .5,
             duration: 2,
             scale: .75,
             x: -200
         })
+        .from("#letter-r-fill", {
+            opacity: 0,
+
+            duration: 1
+        });
     return tl;
 
 }
-
-var mainTl = gsap.timeline();
-mainTl.add(FoundLogoAnimation());
-
-
-gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
-
 // gsap.from("#globe-stand", {
 //     duration: 2,
 //     x: 500,
 //     scale: 3,
 
-// })
+// });
+
 
 // gsap.from("globe", {
 //     duration: 2,
@@ -100,6 +105,13 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 //     transformOrigin: "center",
 //     rotation: 100
 // })
+
+
+var mainTl = gsap.timeline();
+mainTl.add(FoundLogoAnimation());
+
+
+
 
 
 
