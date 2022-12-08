@@ -17,55 +17,68 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
 function FoundLogoAnimation() {
     var tl = gsap.timeline();
     tl.from("#globe-stand", {
-            drawSVG: "75 % 75 %"
-        }, {
+            drawSVG: "25% 100%",
             duration: 1,
-            drawSVG: "25% 125%"
+        })
+        .from("#globe-stand-fill", {
+            opacity: 0,
+            delay: .25,
+            duration: 1
         })
         .from("#first-w", {
-            drawSVG: "50% 50%"
-        }, {
-            delay: 5,
-            duration: 2,
+            drawSVG: "75% 100%",
+            duration: .5,
             scale: .75,
             x: -200
+        })
+        .from("#first-w-fill", {
+            opacity: 0,
+
+            duration: 1
         })
         .from("#second-w", {
-            drawSVG: "50% 50%"
-        }, {
-            delay: 10,
-            duration: 2,
+            drawSVG: "75% 100%",
+            duration: .5,
             scale: .75,
             x: -200
+        })
+        .from("#second-w-fill", {
+            opacity: 0,
+
+            duration: 1
         })
         .from("#letter-a", {
-            drawSVG: "50% 50%"
-        }, {
-            delay: 1,
-            duration: 2,
+            drawSVG: "75% 100%",
             scale: .75,
             x: -200
+        })
+        .from("#letter-a-fill", {
+            opacity: 0,
+
+            duration: 1
         })
         .from("#letter-n", {
-            drawSVG: "50% 50%"
-        }, {
-            delay: 1,
-            duration: 2,
+            drawSVG: "75% 100%",
             scale: .75,
             x: -200
+        })
+        .from("#letter-n-fill", {
+            opacity: 0,
+
+            duration: 1
         })
         .from("#letter-d", {
-            drawSVG: "50% 50%"
-        }, {
-            delay: 1,
-            duration: 2,
+            drawSVG: "75% 100%",
             scale: .75,
             x: -200
         })
+        .from("#letter-d-fill", {
+            opacity: 0,
+
+            duration: 1
+        })
         .from("#letter-e", {
-            drawSVG: "50% 50%",
-            delay: 1,
-            duration: 2,
+            drawSVG: "75% 100%",
             scale: .75,
             x: -200
         })
@@ -76,9 +89,7 @@ function FoundLogoAnimation() {
         })
 
         .from("#letter-r", {
-            drawSVG: "50% 50%",
-            delay: .5,
-            duration: 2,
+            drawSVG: "75% 100%",
             scale: .75,
             x: -200
         })
