@@ -39,102 +39,102 @@ function CustomLogo() {
         .from("#second-s", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#third-e", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#third-t", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#second-t", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#letter-l", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#second-e", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#letter-m", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#third-e", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#letter-n", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#letter-t", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#music-m", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#music-u", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#music-s", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#music-i", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#music-c", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#school-s", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#school-c", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#school-o1", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#school-o2", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
         .from("#school-l", {
             drawSVG: "25% 100%",
             scale: .75,
-            x: -200
+            x: -100
         })
 
     return tl;
